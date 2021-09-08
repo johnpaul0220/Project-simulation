@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="/TrafficLights.js" type="text/javascript"></script>
+    <script src="/Vehicle.js" type="text/javascript"></script>
+    <script src="/test.js" type="text/javascript"></script>
+
+
+    <script src='https://unpkg.com/@turf/turf@6.3.0/turf.min.js'></script>
+
+    <title>Traffic Light</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<link href="/public/CSS/style.css" rel="stylesheet" />
+
+<body>
+    <div id='map'></div>
+    <div class="map-overlay top">
+        <div class="map-overlay-inner">
+            <h2>Vehicle Speed</h2>
+            <label id="month"></label>
+            <input id="slider" type="range" min="10" max="1000" step="10" value="200">
+            <fieldset>
+                <h3>Enable ESDS system</h3>
+                <label class="switch">
+                    <input id='EnableESDS' type="checkbox" value="false" >
+                    <span class="slider round"></span>
+                  </label>
+            </fieldset>
+            <fieldset>
+                <label><h2>Select vehicle</h2></label>
+                <select id="vehicle" name="vehicle">
+                    <option></option>
+                    <option value="./geoData/20210706.geojson">Vehicle 1</option>
+                    <option value="./geoData/SBI-to-CottageHospital.geojson">Vehicle 2</option>
+                    <option value="./geoData/verna-to-aggasaim.geojson">Vehicle 3</option>
+                    <option value="./geoData/vishal-to-chicalim.geojson">Vehicle 4</option>
+                </select>
+            </fieldset>
+        </div>
+
+    </div>
+    <script>
+
+
+        let JsonGeoData
+        let noOfPoints
+        let StAndrewsJunction
+        let EnableESDS = false
+
+        let vehicle = document.getElementById('vehicle')
+        let switchButtonn = document.getElementById('EnableESDS')
+        switchButtonn.addEventListener('click',()=>{
+            EnableESDS = !EnableESDS
+            console.log(EnableESDS)
+        })
+
+
+        mapboxgl.accessToken = ' ';
+        let map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/johnpaul0220/ckqmheqv700dm17mgw1sz9yar',
+            center: [73.80897383175359, 15.39948581818134],
+            zoom: 14.5
+        });
+        map.on('load', () => {
+            const stAndrewsJunction = new TrafficLights('geoFence/StAndrewsJunction.geojson', 1 / 5, 'StAndrewsJunction', map)
+            const bogmaloDabolim = new TrafficLights('geoFence/BogmaloDabolimJunction.geojson', 1 / 5, 'BogmaloDabolimJunction', map)
+            const HolyCrossColonyVidhyanagarColonyJunction = new TrafficLights(
+                'geoFence/HolyCrossColonyVidhyanagarColonyJunction.geojson',
+                1 / 5,
+                'HolyCrossColonyVidhyanagarColonyJunction',
+                map
+                )
+                const GSL = new TrafficLights('geoFence/GSL.geojson', 1 / 5, 'GSL', map) //(dataURL,FPS,junctioName,FenceList,Map)
+                
+                const MES = new TrafficLights('geoFence/MES.geojson', 1 / 5, 'MES', map)
+                
+                const birlaCross = new TrafficLights('geoFence/BirlaCross.geojson', 1 / 5, 'BirlaCross', map)
+                const chicalim = new TrafficLights('geoFence/Chicalim.geojson', 1 / 5, 'Chicalim', map)
+                const Cortalim = new TrafficLights('geoFence/Cortalim.geojson', 1 / 5, 'Cortalim', map)
+                
+                
+                
+                const juncitonList = [stAndrewsJunction,
+                bogmaloDabolim,
+                HolyCrossColonyVidhyanagarColonyJunction,
+                GSL,
+                MES,
+                birlaCross,
+                chicalim,
+                Cortalim]
+                //const test = new TestClass(juncitonList)
+                //const vehicle = new Vehicle(map, './geoData/20210706.geojson',
+                //    'verna-to-aggasaim',
+                //   'ambulance-svgrepo-com',
+                //  juncitonList, true, true)
+                vehicle.addEventListener('change',()=>{
+                    console.log('evevebnciebs')
+                    console.log(document.getElementById('EnableESDS').value)
+                    const vehicle = new Vehicle(map, document.getElementById('vehicle').value,
+                    'vehicle',
+                    'ambulance-svgrepo-com',
+                    juncitonList, true, EnableESDS)
+                });
+                
+                
+                document.getElementById('slider').addEventListener('input', function (e) {
+                    console.log(1000 - e.target.value)
+                //10-2000
+                console.log(vehicle.fpsInterval = 1000 - e.target.value)
+            });
+            const test = new TestClass()
+
+        })
+
+    </script>
+
+</body>
+
+</html>

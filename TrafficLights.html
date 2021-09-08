@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="/TrafficLights.js" type="text/javascript"></script>
+
+    <title>Traffic Light</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='map'></div>
+    <script>
+        let JsonGeoData
+        let noOfPoints
+        let StAndrewsJunction
+    
+        $(document).ready(() => {
+            mapboxgl.accessToken = ' ';
+            let map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/johnpaul0220/ckqmheqv700dm17mgw1sz9yar',
+                center: [73.80897383175359, 15.39948581818134],
+                zoom: 14.5
+            });
+            const Lights = new TrafficLights('./StAndewsJunction.geojson', 1 / 5, 'StAndrewsJunction', [
+                'StAndrewsJunctionNorthFence',
+                'StAndrewsJunctionEastFence',
+                'StAndrewsJunctionSouthFence',
+                'StAndrewsJunctionWestFence'
+            ],map)//(dataURL,FPS,junctioName,FenceList,Map)
+            map.on('load', () => {
+                //RED = #ff003c
+                //GREEN = #00ff4c
+                //BLUE = #0080ff
+                map.addSource('StAndrewsJunction', {
+                    "type": 'geojson',
+                    'data': '/StAndewsJunction.geojson'
+                })
+
+                map.addLayer({
+                    'id': 'StAndrewsJunctionNorthFence',
+                    'type': 'fill',
+                    'source': 'StAndrewsJunction',
+                    'paint': {
+                        'fill-color': '#ff003c', // blue color fill
+                        'fill-opacity': 0.5
+                    },
+                    'filter': ['==', 'fence', 'NorthFence']
+                })
+                map.addLayer({
+                    'id': 'StAndrewsJunctionSouthFence',
+                    'type': 'fill',
+                    'source': 'StAndrewsJunction',
+                    'paint': {
+                        'fill-color': '#ff003c', // blue color fill
+                        'fill-opacity': 0.5
+                    },
+                    'filter': ['==', 'fence', 'SouthFence']
+                })
+                map.addLayer({
+                    'id': 'StAndrewsJunctionEastFence',
+                    'type': 'fill',
+                    'source': 'StAndrewsJunction',
+                    'paint': {
+                        'fill-color': '#ff003c', // blue color fill
+                        'fill-opacity': 0.5
+                    },
+                    'filter': ['==', 'fence', 'EastFence']
+                })
+                map.addLayer({
+                    'id': 'StAndrewsJunctionWestFence',
+                    'type': 'fill',
+                    'source': 'StAndrewsJunction',
+                    'paint': {
+                        'fill-color': '#00ff4c', // blue color fill
+                        'fill-opacity': 0.5
+                    },
+                    'filter': ['==', 'fence', 'WestFence']
+                })
+
+                console.log(map.getSource('StAndrewsJunction'))
+                console.log(map.getLayer('StAndrewsJunctionNorthFence'))
+
+                //time part
+                let fps, fpsInterval, startTime, now, then, elapsed, intNo = 0, phase = 0;
+                let stAndrewsJunction = [
+                    'StAndrewsJunctionNorthFence',
+                    'StAndrewsJunctionEastFence',
+                    'StAndrewsJunctionSouthFence',
+                    'StAndrewsJunctionWestFence'
+                ]
+                startTrafficLightsAnimation(1 / 4)
+                function startTrafficLightsAnimation(fps) {
+                    fpsInterval = 1000 / fps;
+                    then = Date.now();
+                    startTime = then;
+
+                    animateTrafficLights();
+                }
+
+                function animateTrafficLights() {
+                    requestAnimationFrame(animateTrafficLights)
+                    now = Date.now();
+                    elapsed = now - then;
+                    if (elapsed > fpsInterval) {
+                        then = now - (elapsed % fpsInterval);
+                        //console.log(intNo)
+
+                        console.log('no: ' + (intNo) % stAndrewsJunction.length + ' =' + stAndrewsJunction[(intNo) % stAndrewsJunction.length])
+
+                        console.log('\n');
+                        //console.log('phase: '+phase)
+
+                        map.setPaintProperty(stAndrewsJunction[(intNo) % stAndrewsJunction.length], 'fill-color', '#00ff4c')
+                        map.setPaintProperty(stAndrewsJunction[(intNo + 1) % stAndrewsJunction.length], 'fill-color', '#ff003c')
+                        map.setPaintProperty(stAndrewsJunction[(intNo + 2) % stAndrewsJunction.length], 'fill-color', '#ff003c')
+                        map.setPaintProperty(stAndrewsJunction[(intNo + 3) % stAndrewsJunction.length], 'fill-color', '#ff003c')
+
+                        //map.setPaintProperty(stAndrewsJunction[(intNo) % stAndrewsJunction.length], 'fill-color', '#ff9900')
+                        //map.setPaintProperty(stAndrewsJunction[(intNo + 1) % stAndrewsJunction.length], 'fill-color', '#ff003c')
+                        //map.setPaintProperty(stAndrewsJunction[(intNo + 2) % stAndrewsJunction.length], 'fill-color', '#ff003c')
+                        //map.setPaintProperty(stAndrewsJunction[(intNo + 3) % stAndrewsJunction.length], 'fill-color', '#ff003c')
+                        intNo++
+                        phase = intNo % 3;
+                    }
+                }
+            })
+        })
+    </script>
+
+</body>
+
+</html>

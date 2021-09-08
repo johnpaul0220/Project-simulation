@@ -1,0 +1,1981 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:33.000Z",
+                "provider": "gps",
+                "time_long": 1625382813000,
+                "accuracy": 21.622368,
+                "altitude": -95.95883178710938,
+                "bearing": 55.5,
+                "speed": 10.85
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83729761,
+                    15.39824746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:34.000Z",
+                "provider": "gps",
+                "time_long": 1625382814000,
+                "accuracy": 16.990196,
+                "altitude": -100.06600952148438,
+                "bearing": 58.8,
+                "speed": 12.14
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.8373827,
+                    15.39827178
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:36.000Z",
+                "provider": "gps",
+                "time_long": 1625382816000,
+                "accuracy": 16.283915,
+                "altitude": -98.80194091796875,
+                "bearing": 62,
+                "speed": 11.37
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83753343,
+                    15.39836841
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:38.000Z",
+                "provider": "gps",
+                "time_long": 1625382818000,
+                "accuracy": 9.201669,
+                "altitude": -89.7095947265625,
+                "bearing": 65.4,
+                "speed": 10.85
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83765426,
+                    15.398403
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:40.000Z",
+                "provider": "gps",
+                "time_long": 1625382820000,
+                "accuracy": 8.632174,
+                "altitude": -83.872802734375,
+                "bearing": 64.7,
+                "speed": 11.26
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83788259,
+                    15.39851261
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:42.000Z",
+                "provider": "gps",
+                "time_long": 1625382822000,
+                "accuracy": 8.477636,
+                "altitude": -84.26922607421875,
+                "bearing": 65,
+                "speed": 11.28
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83806867,
+                    15.39859654
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:44.000Z",
+                "provider": "gps",
+                "time_long": 1625382824000,
+                "accuracy": 9.431906,
+                "altitude": -85.3236083984375,
+                "bearing": 66.4,
+                "speed": 11.31
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83824479,
+                    15.39864545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:46.000Z",
+                "provider": "gps",
+                "time_long": 1625382826000,
+                "accuracy": 9.64823,
+                "altitude": -86.65643310546875,
+                "bearing": 64.2,
+                "speed": 11.63
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83843454,
+                    15.39872926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:47.000Z",
+                "provider": "gps",
+                "time_long": 1625382827000,
+                "accuracy": 10.265784,
+                "altitude": -87.02020263671875,
+                "bearing": 64.2,
+                "speed": 11.89
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83853552,
+                    15.39878002
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:49.000Z",
+                "provider": "gps",
+                "time_long": 1625382829000,
+                "accuracy": 13.852137,
+                "altitude": -87.3411865234375,
+                "bearing": 64.4,
+                "speed": 11.77
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83873295,
+                    15.39887192
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:51.000Z",
+                "provider": "gps",
+                "time_long": 1625382831000,
+                "accuracy": 15.40255,
+                "altitude": -87.36383056640625,
+                "bearing": 66.7,
+                "speed": 10.96
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83889692,
+                    15.39893416
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:53.000Z",
+                "provider": "gps",
+                "time_long": 1625382833000,
+                "accuracy": 12.612232,
+                "altitude": -86.76400756835938,
+                "bearing": 62.4,
+                "speed": 12.38
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83911592,
+                    15.39907136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:55.000Z",
+                "provider": "gps",
+                "time_long": 1625382835000,
+                "accuracy": 10.823019,
+                "altitude": -88.67184448242188,
+                "bearing": 61.6,
+                "speed": 12.85
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83933409,
+                    15.39920727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:57.000Z",
+                "provider": "gps",
+                "time_long": 1625382837000,
+                "accuracy": 11.712251,
+                "altitude": -89.0511474609375,
+                "bearing": 61,
+                "speed": 12.38
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.839538,
+                    15.39930994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:13:58.000Z",
+                "provider": "gps",
+                "time_long": 1625382838000,
+                "accuracy": 12.045562,
+                "altitude": -88.92282104492188,
+                "bearing": 60.9,
+                "speed": 12.86
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83964906,
+                    15.39937547
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:00.000Z",
+                "provider": "gps",
+                "time_long": 1625382840000,
+                "accuracy": 8.480609,
+                "altitude": -89.31011962890625,
+                "bearing": 63.2,
+                "speed": 12.35
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.83987606,
+                    15.39942194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:02.000Z",
+                "provider": "gps",
+                "time_long": 1625382842000,
+                "accuracy": 8.351226,
+                "altitude": -89.967041015625,
+                "bearing": 60.3,
+                "speed": 9.68
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84001465,
+                    15.39949142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:04.000Z",
+                "provider": "gps",
+                "time_long": 1625382844000,
+                "accuracy": 9.104729,
+                "altitude": -89.90301513671875,
+                "bearing": 66.6,
+                "speed": 10.82
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84021059,
+                    15.39956924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:06.000Z",
+                "provider": "gps",
+                "time_long": 1625382846000,
+                "accuracy": 10.350726,
+                "altitude": -89.7366943359375,
+                "bearing": 81.5,
+                "speed": 10.55
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84040431,
+                    15.39954363
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:08.000Z",
+                "provider": "gps",
+                "time_long": 1625382848000,
+                "accuracy": 11.203777,
+                "altitude": -88.49337768554688,
+                "bearing": 93.5,
+                "speed": 10.19
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84059035,
+                    15.39954454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:09.000Z",
+                "provider": "gps",
+                "time_long": 1625382849000,
+                "accuracy": 10.4465275,
+                "altitude": -88.34762573242188,
+                "bearing": 99.7,
+                "speed": 11.92
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84073418,
+                    15.39951013
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:11.000Z",
+                "provider": "gps",
+                "time_long": 1625382851000,
+                "accuracy": 9.984285,
+                "altitude": -86.76248168945312,
+                "bearing": 107.9,
+                "speed": 12.94
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84099286,
+                    15.39938439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:12.000Z",
+                "provider": "gps",
+                "time_long": 1625382852000,
+                "accuracy": 9.465107,
+                "altitude": -88.458251953125,
+                "bearing": 95.3,
+                "speed": 12.81
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84110661,
+                    15.39938256
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:14.000Z",
+                "provider": "gps",
+                "time_long": 1625382854000,
+                "accuracy": 10.366368,
+                "altitude": -85.79278564453125,
+                "bearing": 106,
+                "speed": 12.23
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84133412,
+                    15.39929508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:15.000Z",
+                "provider": "gps",
+                "time_long": 1625382855000,
+                "accuracy": 11.024751,
+                "altitude": -84.83392333984375,
+                "bearing": 106.4,
+                "speed": 13.45
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84147521,
+                    15.39922024
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:17.000Z",
+                "provider": "gps",
+                "time_long": 1625382857000,
+                "accuracy": 13.955668,
+                "altitude": -84.96072387695312,
+                "bearing": 95.3,
+                "speed": 13.54
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84173588,
+                    15.39916954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:19.000Z",
+                "provider": "gps",
+                "time_long": 1625382859000,
+                "accuracy": 15.87768,
+                "altitude": -84.54852294921875,
+                "bearing": 101.2,
+                "speed": 13.41
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84195836,
+                    15.39905823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:21.000Z",
+                "provider": "gps",
+                "time_long": 1625382861000,
+                "accuracy": 16.014915,
+                "altitude": -83.95602416992188,
+                "bearing": 102.9,
+                "speed": 13.17
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84215073,
+                    15.39896147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:22.000Z",
+                "provider": "gps",
+                "time_long": 1625382862000,
+                "accuracy": 16.382418,
+                "altitude": -83.84234619140625,
+                "bearing": 102.3,
+                "speed": 14.06
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84228096,
+                    15.39890712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:24.000Z",
+                "provider": "gps",
+                "time_long": 1625382864000,
+                "accuracy": 13.898391,
+                "altitude": -83.280029296875,
+                "bearing": 105,
+                "speed": 14.49
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84252295,
+                    15.39882001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:26.000Z",
+                "provider": "gps",
+                "time_long": 1625382866000,
+                "accuracy": 13.202584,
+                "altitude": -84.06146240234375,
+                "bearing": 99.2,
+                "speed": 13.32
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84275659,
+                    15.39874832
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:28.000Z",
+                "provider": "gps",
+                "time_long": 1625382868000,
+                "accuracy": 12.347537,
+                "altitude": -81.6309814453125,
+                "bearing": 101.4,
+                "speed": 14.03
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84304817,
+                    15.39869466
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:30.000Z",
+                "provider": "gps",
+                "time_long": 1625382870000,
+                "accuracy": 10.917586,
+                "altitude": -80.00320434570312,
+                "bearing": 103.8,
+                "speed": 14.71
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84334344,
+                    15.39860438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:32.000Z",
+                "provider": "gps",
+                "time_long": 1625382872000,
+                "accuracy": 13.401995,
+                "altitude": -81.96429443359375,
+                "bearing": 106.9,
+                "speed": 13.55
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84355551,
+                    15.3984996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:33.000Z",
+                "provider": "gps",
+                "time_long": 1625382873000,
+                "accuracy": 13.369375,
+                "altitude": -81.36978149414062,
+                "bearing": 97.6,
+                "speed": 13.67
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84369513,
+                    15.39842778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:35.000Z",
+                "provider": "gps",
+                "time_long": 1625382875000,
+                "accuracy": 12.793559,
+                "altitude": -80.69119262695312,
+                "bearing": 98.4,
+                "speed": 13.01
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84393196,
+                    15.39836438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:37.000Z",
+                "provider": "gps",
+                "time_long": 1625382877000,
+                "accuracy": 11.796981,
+                "altitude": -86.03793334960938,
+                "bearing": 112.9,
+                "speed": 12.69
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84413848,
+                    15.39824954
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:38.000Z",
+                "provider": "gps",
+                "time_long": 1625382878000,
+                "accuracy": 11.434675,
+                "altitude": -84.33416748046875,
+                "bearing": 112.7,
+                "speed": 12.79
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.8442482,
+                    15.39821643
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:40.000Z",
+                "provider": "gps",
+                "time_long": 1625382880000,
+                "accuracy": 11.151234,
+                "altitude": -85.56793212890625,
+                "bearing": 114,
+                "speed": 11.76
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84446343,
+                    15.39812588
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:41.000Z",
+                "provider": "gps",
+                "time_long": 1625382881000,
+                "accuracy": 11.261697,
+                "altitude": -84.23056030273438,
+                "bearing": 113.4,
+                "speed": 9.33
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84454822,
+                    15.39810273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:43.000Z",
+                "provider": "gps",
+                "time_long": 1625382883000,
+                "accuracy": 11.55543,
+                "altitude": -83.49942016601562,
+                "bearing": 109.9,
+                "speed": 10.44
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84473428,
+                    15.39802886
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:44.000Z",
+                "provider": "gps",
+                "time_long": 1625382884000,
+                "accuracy": 11.25172,
+                "altitude": -83.27932739257812,
+                "bearing": 105.7,
+                "speed": 7.84
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84479419,
+                    15.3980253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:45.000Z",
+                "provider": "gps",
+                "time_long": 1625382885000,
+                "accuracy": 11.270837,
+                "altitude": -82.946044921875,
+                "bearing": 110.6,
+                "speed": 6.01
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84484515,
+                    15.39801047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:46.000Z",
+                "provider": "gps",
+                "time_long": 1625382886000,
+                "accuracy": 11.303981,
+                "altitude": -83.25405883789062,
+                "bearing": 111.3,
+                "speed": 5.07
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84489359,
+                    15.39799698
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:48.000Z",
+                "provider": "gps",
+                "time_long": 1625382888000,
+                "accuracy": 11.467753,
+                "altitude": -83.68017578125,
+                "bearing": 106.2,
+                "speed": 3.71
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84498031,
+                    15.3979655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:50.000Z",
+                "provider": "gps",
+                "time_long": 1625382890000,
+                "accuracy": 11.340458,
+                "altitude": -83.67440795898438,
+                "bearing": 136.7,
+                "speed": 3.56
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84503084,
+                    15.39792889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:51.000Z",
+                "provider": "gps",
+                "time_long": 1625382891000,
+                "accuracy": 10.964599,
+                "altitude": -83.74343872070312,
+                "bearing": 153.6,
+                "speed": 4.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84506328,
+                    15.39788534
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:52.000Z",
+                "provider": "gps",
+                "time_long": 1625382892000,
+                "accuracy": 10.674171,
+                "altitude": -85.75408935546875,
+                "bearing": 174.2,
+                "speed": 4.44
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.8450795,
+                    15.39783132
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:54.000Z",
+                "provider": "gps",
+                "time_long": 1625382894000,
+                "accuracy": 10.265116,
+                "altitude": -85.037109375,
+                "bearing": 178.1,
+                "speed": 6.36
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84509539,
+                    15.39772813
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:56.000Z",
+                "provider": "gps",
+                "time_long": 1625382896000,
+                "accuracy": 10.428905,
+                "altitude": -90.05062866210938,
+                "bearing": 177.8,
+                "speed": 4.55
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84509109,
+                    15.39759517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:58.000Z",
+                "provider": "gps",
+                "time_long": 1625382898000,
+                "accuracy": 10.843766,
+                "altitude": -88.72930908203125,
+                "bearing": 181.1,
+                "speed": 6.91
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84509528,
+                    15.39748609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:14:59.000Z",
+                "provider": "gps",
+                "time_long": 1625382899000,
+                "accuracy": 10.982155,
+                "altitude": -88.2672119140625,
+                "bearing": 175,
+                "speed": 7.21
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84510158,
+                    15.3974279
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:00.000Z",
+                "provider": "gps",
+                "time_long": 1625382900000,
+                "accuracy": 11.626315,
+                "altitude": -87.27056884765625,
+                "bearing": 175.9,
+                "speed": 6.93
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84510902,
+                    15.39736792
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:02.000Z",
+                "provider": "gps",
+                "time_long": 1625382902000,
+                "accuracy": 11.293159,
+                "altitude": -88.52877807617188,
+                "bearing": 174.7,
+                "speed": 7.53
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84512824,
+                    15.39723531
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:03.000Z",
+                "provider": "gps",
+                "time_long": 1625382903000,
+                "accuracy": 11.236919,
+                "altitude": -87.02590942382812,
+                "bearing": 174.8,
+                "speed": 6.48
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84513363,
+                    15.39717239
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:05.000Z",
+                "provider": "gps",
+                "time_long": 1625382905000,
+                "accuracy": 11.660937,
+                "altitude": -87.2039794921875,
+                "bearing": 176.6,
+                "speed": 6.89
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84514032,
+                    15.39703377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:07.000Z",
+                "provider": "gps",
+                "time_long": 1625382907000,
+                "accuracy": 12.01607,
+                "altitude": -86.03216552734375,
+                "bearing": 175.5,
+                "speed": 6.44
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84515249,
+                    15.39692688
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:09.000Z",
+                "provider": "gps",
+                "time_long": 1625382909000,
+                "accuracy": 12.156358,
+                "altitude": -87.06732177734375,
+                "bearing": 176.4,
+                "speed": 8.76
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84514331,
+                    15.39676797
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:11.000Z",
+                "provider": "gps",
+                "time_long": 1625382911000,
+                "accuracy": 11.962737,
+                "altitude": -87.27102661132812,
+                "bearing": 175.1,
+                "speed": 9.14
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.8451651,
+                    15.39660293
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:12.000Z",
+                "provider": "gps",
+                "time_long": 1625382912000,
+                "accuracy": 11.473891,
+                "altitude": -86.07171630859375,
+                "bearing": 173.8,
+                "speed": 9.43
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84519652,
+                    15.39653114
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:14.000Z",
+                "provider": "gps",
+                "time_long": 1625382914000,
+                "accuracy": 11.690425,
+                "altitude": -84.1468505859375,
+                "bearing": 174.4,
+                "speed": 8.56
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84521242,
+                    15.3963533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:15.000Z",
+                "provider": "gps",
+                "time_long": 1625382915000,
+                "accuracy": 11.24186,
+                "altitude": -83.43222045898438,
+                "bearing": 177.1,
+                "speed": 8.65
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84521602,
+                    15.39627769
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:17.000Z",
+                "provider": "gps",
+                "time_long": 1625382917000,
+                "accuracy": 11.586215,
+                "altitude": -84.53936767578125,
+                "bearing": 179.2,
+                "speed": 6.17
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84521798,
+                    15.39615118
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:19.000Z",
+                "provider": "gps",
+                "time_long": 1625382919000,
+                "accuracy": 11.571722,
+                "altitude": -87.80673217773438,
+                "bearing": 138.2,
+                "speed": 4.36
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84525749,
+                    15.39606603
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:20.000Z",
+                "provider": "gps",
+                "time_long": 1625382920000,
+                "accuracy": 11.928716,
+                "altitude": -87.46417236328125,
+                "bearing": 145.8,
+                "speed": 4.31
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84527967,
+                    15.39603029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:21.000Z",
+                "provider": "gps",
+                "time_long": 1625382921000,
+                "accuracy": 12.720425,
+                "altitude": -87.02496337890625,
+                "bearing": 146.2,
+                "speed": 5.75
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84533237,
+                    15.39596888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:23.000Z",
+                "provider": "gps",
+                "time_long": 1625382923000,
+                "accuracy": 12.382878,
+                "altitude": -87.8232421875,
+                "bearing": 117.1,
+                "speed": 7.02
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84548025,
+                    15.39594415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:25.000Z",
+                "provider": "gps",
+                "time_long": 1625382925000,
+                "accuracy": 11.845576,
+                "altitude": -90.12185668945312,
+                "bearing": 146.1,
+                "speed": 8.98
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84558328,
+                    15.3958362
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:26.000Z",
+                "provider": "gps",
+                "time_long": 1625382926000,
+                "accuracy": 11.581309,
+                "altitude": -89.00286865234375,
+                "bearing": 157.4,
+                "speed": 8.64
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84562455,
+                    15.39576526
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:27.000Z",
+                "provider": "gps",
+                "time_long": 1625382927000,
+                "accuracy": 11.315069,
+                "altitude": -88.79730224609375,
+                "bearing": 162.7,
+                "speed": 9.48
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84566156,
+                    15.39568673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:29.000Z",
+                "provider": "gps",
+                "time_long": 1625382929000,
+                "accuracy": 11.168531,
+                "altitude": -89.2421875,
+                "bearing": 181.2,
+                "speed": 9.41
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84568246,
+                    15.39554117
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:30.000Z",
+                "provider": "gps",
+                "time_long": 1625382930000,
+                "accuracy": 10.985533,
+                "altitude": -89.078857421875,
+                "bearing": 175.8,
+                "speed": 9.69
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84569349,
+                    15.39544309
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:32.000Z",
+                "provider": "gps",
+                "time_long": 1625382932000,
+                "accuracy": 11.047018,
+                "altitude": -90.05108642578125,
+                "bearing": 177.1,
+                "speed": 9.31
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84571366,
+                    15.3952558
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:33.000Z",
+                "provider": "gps",
+                "time_long": 1625382933000,
+                "accuracy": 10.959398,
+                "altitude": -90.2606201171875,
+                "bearing": 179.8,
+                "speed": 8.91
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84570451,
+                    15.39517814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:35.000Z",
+                "provider": "gps",
+                "time_long": 1625382935000,
+                "accuracy": 11.2936945,
+                "altitude": -89.47909545898438,
+                "bearing": 180.6,
+                "speed": 8.58
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84570594,
+                    15.39502267
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:37.000Z",
+                "provider": "gps",
+                "time_long": 1625382937000,
+                "accuracy": 12.547555,
+                "altitude": -89.41314697265625,
+                "bearing": 174.9,
+                "speed": 8.53
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84571728,
+                    15.39487553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:38.000Z",
+                "provider": "gps",
+                "time_long": 1625382938000,
+                "accuracy": 13.371506,
+                "altitude": -89.76666259765625,
+                "bearing": 173.5,
+                "speed": 8.1
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84572442,
+                    15.39480535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:40.000Z",
+                "provider": "gps",
+                "time_long": 1625382940000,
+                "accuracy": 13.433362,
+                "altitude": -88.91119384765625,
+                "bearing": 158,
+                "speed": 7.45
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84581359,
+                    15.39466196
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:42.000Z",
+                "provider": "gps",
+                "time_long": 1625382942000,
+                "accuracy": 13.309067,
+                "altitude": -87.87106323242188,
+                "bearing": 166.8,
+                "speed": 7.84
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84584383,
+                    15.3945223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:43.000Z",
+                "provider": "gps",
+                "time_long": 1625382943000,
+                "accuracy": 13.055102,
+                "altitude": -87.29754638671875,
+                "bearing": 163.9,
+                "speed": 9.86
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84586921,
+                    15.39443914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:44.000Z",
+                "provider": "gps",
+                "time_long": 1625382944000,
+                "accuracy": 12.603556,
+                "altitude": -86.4783935546875,
+                "bearing": 167.7,
+                "speed": 7.88
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84589337,
+                    15.39437774
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:46.000Z",
+                "provider": "gps",
+                "time_long": 1625382946000,
+                "accuracy": 12.81487,
+                "altitude": -87.87045288085938,
+                "bearing": 165.3,
+                "speed": 9.13
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84593,
+                    15.39421746
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:47.000Z",
+                "provider": "gps",
+                "time_long": 1625382947000,
+                "accuracy": 12.350842,
+                "altitude": -88.03799438476562,
+                "bearing": 163.8,
+                "speed": 9.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84596886,
+                    15.39413669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:49.000Z",
+                "provider": "gps",
+                "time_long": 1625382949000,
+                "accuracy": 12.39844,
+                "altitude": -86.6142578125,
+                "bearing": 179.4,
+                "speed": 8.52
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84598252,
+                    15.39397291
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:50.000Z",
+                "provider": "gps",
+                "time_long": 1625382950000,
+                "accuracy": 12.360345,
+                "altitude": -88.75360107421875,
+                "bearing": 176.3,
+                "speed": 9.32
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84599428,
+                    15.39387137
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:52.000Z",
+                "provider": "gps",
+                "time_long": 1625382952000,
+                "accuracy": 11.81336,
+                "altitude": -87.85101318359375,
+                "bearing": 166.5,
+                "speed": 9.21
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84605322,
+                    15.39370943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:53.000Z",
+                "provider": "gps",
+                "time_long": 1625382953000,
+                "accuracy": 11.850793,
+                "altitude": -86.28436279296875,
+                "bearing": 165.8,
+                "speed": 8.85
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84607171,
+                    15.39365268
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:55.000Z",
+                "provider": "gps",
+                "time_long": 1625382955000,
+                "accuracy": 12.035152,
+                "altitude": -98.41921997070312,
+                "bearing": 166.6,
+                "speed": 9.8
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84615294,
+                    15.39337864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:56.000Z",
+                "provider": "gps",
+                "time_long": 1625382956000,
+                "accuracy": 12.530591,
+                "altitude": -97.03509521484375,
+                "bearing": 168.7,
+                "speed": 9.73
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84615078,
+                    15.3933064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:58.000Z",
+                "provider": "gps",
+                "time_long": 1625382958000,
+                "accuracy": 13.537893,
+                "altitude": -97.51223754882812,
+                "bearing": 171.1,
+                "speed": 9.32
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84618235,
+                    15.39315049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:15:59.000Z",
+                "provider": "gps",
+                "time_long": 1625382959000,
+                "accuracy": 13.83129,
+                "altitude": -97.7022705078125,
+                "bearing": 170.7,
+                "speed": 7.86
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84619697,
+                    15.39308512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:01.000Z",
+                "provider": "gps",
+                "time_long": 1625382961000,
+                "accuracy": 14.7695875,
+                "altitude": -97.39511108398438,
+                "bearing": 177.6,
+                "speed": 9.19
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84618583,
+                    15.39292103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:02.000Z",
+                "provider": "gps",
+                "time_long": 1625382962000,
+                "accuracy": 14.663293,
+                "altitude": -97.17971801757812,
+                "bearing": 176,
+                "speed": 9.68
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84619808,
+                    15.39283043
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:03.000Z",
+                "provider": "gps",
+                "time_long": 1625382963000,
+                "accuracy": 13.960992,
+                "altitude": -93.91732788085938,
+                "bearing": 178.1,
+                "speed": 9.55
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84618888,
+                    15.39275393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:04.000Z",
+                "provider": "gps",
+                "time_long": 1625382964000,
+                "accuracy": 13.989718,
+                "altitude": -93.72793579101562,
+                "bearing": 174.4,
+                "speed": 9.29
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84622311,
+                    15.39268661
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:06.000Z",
+                "provider": "gps",
+                "time_long": 1625382966000,
+                "accuracy": 13.489191,
+                "altitude": -92.53955078125,
+                "bearing": 154.6,
+                "speed": 9.11
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84631351,
+                    15.39254516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:07.000Z",
+                "provider": "gps",
+                "time_long": 1625382967000,
+                "accuracy": 13.436042,
+                "altitude": -90.72076416015625,
+                "bearing": 140.5,
+                "speed": 7.9
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84635122,
+                    15.3924853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:09.000Z",
+                "provider": "gps",
+                "time_long": 1625382969000,
+                "accuracy": 13.504455,
+                "altitude": -89.36956787109375,
+                "bearing": 135.1,
+                "speed": 7.64
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84644257,
+                    15.3923913
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:10.000Z",
+                "provider": "gps",
+                "time_long": 1625382970000,
+                "accuracy": 13.272226,
+                "altitude": -89.07037353515625,
+                "bearing": 135.3,
+                "speed": 7.76
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84648689,
+                    15.3923417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:11.000Z",
+                "provider": "gps",
+                "time_long": 1625382971000,
+                "accuracy": 13.095401,
+                "altitude": -88.61712646484375,
+                "bearing": 140.5,
+                "speed": 8.96
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84652306,
+                    15.39226449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:13.000Z",
+                "provider": "gps",
+                "time_long": 1625382973000,
+                "accuracy": 12.977176,
+                "altitude": -90.19717407226562,
+                "bearing": 134.5,
+                "speed": 7.91
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84662743,
+                    15.39216237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:15.000Z",
+                "provider": "gps",
+                "time_long": 1625382975000,
+                "accuracy": 13.306258,
+                "altitude": -89.74447631835938,
+                "bearing": 138,
+                "speed": 6.92
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84674247,
+                    15.39206095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:17.000Z",
+                "provider": "gps",
+                "time_long": 1625382977000,
+                "accuracy": 13.093538,
+                "altitude": -89.5506591796875,
+                "bearing": 145.4,
+                "speed": 9.12
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84686305,
+                    15.3919139
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "time": "2021-07-04T07:16:18.000Z",
+                "provider": "gps",
+                "time_long": 1625382978000,
+                "accuracy": 13.091731,
+                "altitude": -89.18359375,
+                "bearing": 142.9,
+                "speed": 8.51
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.84691829,
+                    15.3918539
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "junciton": "StAndrewsJunction",
+        "fence": "NorthFence",
+        "if": "StAndrewsJunctionStAndrewsJunction"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.81707966327669, 15.398917681010726],
+            [73.81763219833374, 15.399155585407897],
+            [73.81666123867035, 15.39984860970973],
+            [73.81614625453949, 15.399569331537467],
+            [73.81707966327669, 15.398917681010726]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "junciton": "StAndrewsJunction",
+        "fence": "EastFence",
+        "id": "StAndrewsJunctionStAndrewsJunction"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.81770193576813, 15.399103867083822],
+            [73.81781995296478, 15.398762525822542],
+            [73.81911277770996, 15.398969399381096],
+            [73.8190108537674, 15.399362458575547],
+            [73.81770193576813, 15.399103867083822]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "junciton": "StAndrewsJunction",
+        "fence": "SouthFence",
+        "id": "StAndrewsJunctionStAndrewsJunction"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.81733179092407, 15.398607370518638],
+            [73.81785750389099, 15.397459217673154],
+            [73.81835103034973, 15.397655748789896],
+            [73.81771266460419, 15.398741838455376],
+            [73.81733179092407, 15.398607370518638]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "junciton": "StAndrewsJunction",
+        "fence": "WestFence",
+        "id": "StAndrewsJunctionStAndrewsJunction"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [73.8168865442276, 15.398928024685844],
+            [73.81564199924469, 15.398452215098999],
+            [73.81589412689209, 15.398059154184685],
+            [73.81724596023558, 15.398602198673172],
+            [73.8168865442276, 15.398928024685844]
+          ]
+        ]
+      }
+    }
+  ]
+}

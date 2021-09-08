@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id='map'></div>
+
+
+    <script>
+        let prevPoint = []
+        let JsonGeoData
+        let noOfPoints
+        let StAndrewsJunction
+        $(document).ready(() => {
+            mapboxgl.accessToken = ' ';
+            let map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/johnpaul0220/ckqtwr8bn04vh17mt3hf5ij3p',
+                center: [73.80897383175359, 15.39948581818134],
+                zoom: 17,
+                pitch: 67,
+            });
+            var gpsPoints = {
+                'type': 'FeatureCollection',
+                'features': [
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'LineString',
+                            'coordinates': []
+                        }
+                    }
+                ]
+            };
+            var iconPoints = {
+                'type': 'FeatureCollection',
+                'features': [
+                    {
+                        'type': 'Feature',
+                        'geometry': {
+                            'type': 'LineString',
+                            'coordinates': []
+                        }
+                    }
+                ]
+            };
+            map.on('load', () => {
+                map.addSource('route', {
+                    'type': 'geojson',
+                    'data': 'iconPoints'
+                });
+                map.addSource('line', {
+                    'type': 'geojson',
+                    'data': gpsPoints
+                });
+
+                map.addSource('single-point',{
+                    'type' : 'geojson',
+                    'data': gpsPoints
+                })
+                map.addLayer({
+                    'id': 'ambulance-svgrepo-com',
+                    'type': 'circle',
+                    'source': 'route',
+                    'paint': {
+                        'circle-radius': 8,
+                        'circle-stroke-width': 2,
+                        'circle-color': 'red',
+                        'circle-stroke-color': 'white'
+                    }
+                })
+
+
+                let fps, fpsInterval, startTime, now, then, elapsed, intNo = 0;
+                let startButton = false
+                fetch('./geoData/20210706.geojson').then(res => res.json()).then(data => {
+                    console.log(data)
+                    JsonGeoData = data
+                    noOfPoints = JsonGeoData.features.length//features
+                    console.log(noOfPoints)
+                })
+                startAnimating(15)//10/
+
+                function startAnimating(fps) {
+                    fpsInterval = 1000 / fps;
+                    then = Date.now();
+                    startTime = then;
+                    animate();
+                }
+                let prevBearing = 0
+                function animate() {
+                    requestAnimationFrame(animate)
+                    now = Date.now();
+                    elapsed = now - then;
+                    if (elapsed > fpsInterval && intNo < noOfPoints) {
+                        then = now - (elapsed % fpsInterval);
+
+                        if(intNo % 15){
+                            if(Math.floor(JsonGeoData.features[intNo].properties.bearing - prevBearing) > 5 || JsonGeoData.features[intNo].properties.bearing - prevBearing < -5 ){
+                                console.log(`previous bearing : ${prevBearing} , current bearing ${JsonGeoData.features[intNo].properties.bearing} and diff is ${Math.floor(JsonGeoData.features[intNo].properties.bearing - prevBearing)}`)
+                                map.setBearing(Math.floor(JsonGeoData.features[intNo].properties.bearing))
+                                //console.log(JsonGeoData.features[intNo].properties.bearing)
+                                prevBearing = JsonGeoData.features[intNo].properties.bearing 
+                            }
+                        }
+                        if(intNo % 15){
+                            map.panTo(JsonGeoData.features[intNo].geometry.coordinates)
+                            map.getSource('route').setData({
+                                "type": "Feature",
+                                "properties": {},
+                                "geometry": {
+                                    "type": "Point",
+                                    "coordinates": JsonGeoData.features[intNo].geometry.coordinates
+                                }
+                            });
+                            //console.log(JsonGeoData.features[intNo].geometry.coordinates)
+
+                            //console.log(JsonGeoData.features[intNo].geometry.coordinates[0].toFixed(4)+','+JsonGeoData.features[intNo].geometry.coordinates[1].toFixed(4))
+                        }
+                        
+                        intNo++
+                    }
+                    //console.clear()
+                }
+
+
+            })
+
+
+
+
+        })
+    </script>
+</body>
+
+</html>
